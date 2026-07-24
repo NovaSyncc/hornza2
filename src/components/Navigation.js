@@ -202,7 +202,7 @@ const Navigation = () => {
           {/* Mobile Hamburger */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className={`md:hidden p-2 rounded-md transition-colors duration-300 ${
+            className={`md:hidden p-2.5 rounded-md transition-colors duration-300 ${
               useTransparent
                 ? 'text-white hover:text-white/80'
                 : 'text-gray-700 hover:text-emerald-600'
@@ -250,7 +250,7 @@ const Navigation = () => {
                 <Link
                   key={link.label}
                   href={link.href}
-                  className="block text-sm text-gray-700 hover:text-emerald-600 hover:bg-gray-50 px-3 py-2.5 rounded-md transition-colors"
+                  className="block text-sm text-gray-700 hover:text-emerald-600 hover:bg-gray-50 px-3 py-3 rounded-md transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.label}
@@ -262,7 +262,7 @@ const Navigation = () => {
                   <>
                     <Link
                       href={getDashboardLink()}
-                      className="block text-sm text-gray-700 hover:text-emerald-600 hover:bg-gray-50 px-3 py-2.5 rounded-md transition-colors"
+                      className="block text-sm text-gray-700 hover:text-emerald-600 hover:bg-gray-50 px-3 py-3 rounded-md transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       Dashboard
@@ -277,7 +277,7 @@ const Navigation = () => {
                     </div>
                     <button
                       onClick={handleLogout}
-                      className="block w-full text-left text-sm text-gray-700 hover:text-emerald-600 hover:bg-gray-50 px-3 py-2.5 rounded-md transition-colors"
+                      className="block w-full text-left text-sm text-gray-700 hover:text-emerald-600 hover:bg-gray-50 px-3 py-3 rounded-md transition-colors"
                     >
                       Logout
                     </button>
@@ -286,7 +286,7 @@ const Navigation = () => {
                   <>
                     <Link
                       href="/login"
-                      className="block text-sm text-gray-700 hover:text-emerald-600 hover:bg-gray-50 px-3 py-2.5 rounded-md transition-colors"
+                      className="block text-sm text-gray-700 hover:text-emerald-600 hover:bg-gray-50 px-3 py-3 rounded-md transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       Sign In

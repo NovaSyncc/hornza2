@@ -26,7 +26,7 @@ const AboutPageClient = () => {
               <span className="text-emerald-600 text-sm font-medium">About Hornza</span>
             </motion.div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-gray-900">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-gray-900">
               Revolutionizing Rental Housing in <span className="text-emerald-600">Nairobi</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">

@@ -579,7 +579,7 @@ const AdminDashboardClient = () => {
             </div>
 
             {/* Stats Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 sm:gap-3">
               <StatCard label="Users" value={stats.totalUsers} color="blue" />
               <StatCard label="Listings" value={stats.totalListings} color="purple" />
               <StatCard label="Pending" value={stats.pendingVerifications} color="amber" />
@@ -594,7 +594,7 @@ const AdminDashboardClient = () => {
 
         {/* Revenue Bar */}
         <AnimatedSection delay={0.05}>
-          <div className="bg-white border border-gray-200 shadow-sm rounded-xl p-4 mb-4 flex items-center justify-between">
+          <div className="bg-white border border-gray-200 shadow-sm rounded-xl p-4 mb-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
             <div>
               <p className="text-xs text-gray-500">Estimated Revenue (KES 1,000 per verification)</p>
               <p className="text-2xl font-bold text-gray-900">KES {stats.totalRevenue.toLocaleString()}</p>
@@ -824,15 +824,17 @@ const AdminDashboardClient = () => {
                       transition={{ delay: index * 0.02 }}
                       className="grid grid-cols-1 md:grid-cols-12 gap-2 bg-white border border-gray-200 rounded-lg px-3 py-3 hover:bg-gray-50 transition-all items-center"
                     >
-                      <div className="col-span-3 min-w-0">
+                      <div className="md:col-span-3 min-w-0">
                         <p className="font-semibold text-gray-900 text-sm truncate">{listing.title}</p>
                         <p className="text-xs text-gray-500">
                           by {listing.lister?.full_name || 'Unknown'} ({listing.lister_type})
                         </p>
                       </div>
-                      <div className="col-span-2 text-xs text-gray-600">{listing.location}</div>
-                      <div className="col-span-1 text-xs text-gray-600">{listing.property_type}</div>
-                      <div className="col-span-1">
+                      <div className="md:col-span-2 text-xs text-gray-600">
+                        <span className="md:hidden text-gray-400">Location: </span>{listing.location}
+                      </div>
+                      <div className="md:col-span-1 text-xs text-gray-600 hidden md:block">{listing.property_type}</div>
+                      <div className="md:col-span-1">
                         <span className={`px-1.5 py-0.5 rounded text-xs font-medium ${
                           listing.service_type === 'rental' ? 'bg-blue-50 text-blue-700' :
                           listing.service_type === 'furnished' ? 'bg-purple-50 text-purple-700' :
@@ -841,13 +843,13 @@ const AdminDashboardClient = () => {
                           {listing.service_type}
                         </span>
                       </div>
-                      <div className="col-span-2 text-xs text-gray-900 font-semibold">{renderPrice(listing)}</div>
-                      <div className="col-span-1">
+                      <div className="md:col-span-2 text-xs text-gray-900 font-semibold">{renderPrice(listing)}</div>
+                      <div className="md:col-span-1">
                         <span className={`px-2 py-0.5 rounded-full text-xs font-semibold border ${STATUS_STYLES[listing.verification_status] || STATUS_STYLES.unverified}`}>
                           {listing.verification_status || 'unverified'}
                         </span>
                       </div>
-                      <div className="col-span-2 flex items-center gap-1">
+                      <div className="md:col-span-2 flex items-center gap-1">
                         <button
                           onClick={() => handleToggleAvailability(listing)}
                           className={`px-2 py-1 rounded text-xs font-medium transition-colors ${
@@ -917,22 +919,22 @@ const AdminDashboardClient = () => {
                       transition={{ delay: index * 0.02 }}
                       className="grid grid-cols-1 md:grid-cols-12 gap-2 bg-white border border-gray-200 rounded-lg px-3 py-3 hover:bg-gray-50 transition-all items-center"
                     >
-                      <div className="col-span-3 min-w-0">
+                      <div className="md:col-span-3 min-w-0">
                         <p className="font-semibold text-gray-900 text-sm truncate">{user.full_name || 'No name'}</p>
                         {user.company_name && (
                           <p className="text-xs text-gray-400 truncate">{user.company_name}</p>
                         )}
                       </div>
-                      <div className="col-span-3 text-xs text-gray-600 truncate">{user.email || '-'}</div>
-                      <div className="col-span-2">
+                      <div className="md:col-span-3 text-xs text-gray-600 truncate">{user.email || '-'}</div>
+                      <div className="md:col-span-2">
                         <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-semibold border ${USER_TYPE_BADGES[user.user_type] || USER_TYPE_BADGES.tenant}`}>
                           {USER_TYPE_LABELS[user.user_type] || user.user_type || 'Tenant'}
                         </span>
                       </div>
-                      <div className="col-span-2 text-xs text-gray-500">
+                      <div className="md:col-span-2 text-xs text-gray-500 hidden md:block">
                         {user.created_at ? new Date(user.created_at).toLocaleDateString() : '-'}
                       </div>
-                      <div className="col-span-2 text-xs text-gray-600">{user.phone || '-'}</div>
+                      <div className="md:col-span-2 text-xs text-gray-600">{user.phone || '-'}</div>
                     </motion.div>
                   ))}
                 </div>
@@ -1010,7 +1012,7 @@ const AdminDashboardClient = () => {
                       }`}
                     >
                       <div className="grid grid-cols-1 md:grid-cols-12 gap-2 px-3 py-3 items-center">
-                        <div className="col-span-2 min-w-0">
+                        <div className="md:col-span-2 min-w-0">
                           <div className="flex items-center gap-1.5">
                             {!msg.is_read && (
                               <div className="w-2 h-2 bg-emerald-500 rounded-full flex-shrink-0"></div>
@@ -1023,21 +1025,21 @@ const AdminDashboardClient = () => {
                             <p className="text-xs text-gray-400 truncate mt-0.5">{msg.phone}</p>
                           )}
                         </div>
-                        <div className="col-span-2 text-xs text-gray-600 truncate">{msg.email}</div>
-                        <div className="col-span-2">
+                        <div className="md:col-span-2 text-xs text-gray-600 truncate">{msg.email}</div>
+                        <div className="md:col-span-2">
                           <p className={`text-xs truncate ${!msg.is_read ? 'font-semibold text-gray-900' : 'text-gray-700'}`}>
                             {msg.subject}
                           </p>
                         </div>
-                        <div className="col-span-3 min-w-0">
+                        <div className="md:col-span-3 min-w-0 hidden md:block">
                           <p className="text-xs text-gray-500 truncate">
                             {msg.message?.length > 80 ? msg.message.slice(0, 80) + '...' : msg.message}
                           </p>
                         </div>
-                        <div className="col-span-1 text-xs text-gray-400">
+                        <div className="md:col-span-1 text-xs text-gray-400 hidden md:block">
                           {msg.created_at ? new Date(msg.created_at).toLocaleDateString() : '-'}
                         </div>
-                        <div className="col-span-2 flex items-center gap-1">
+                        <div className="md:col-span-2 flex items-center gap-1">
                           <button
                             onClick={() => setExpandedMessage(expandedMessage === msg.id ? null : msg.id)}
                             className="px-2 py-1 rounded text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"

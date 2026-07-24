@@ -234,7 +234,7 @@ const SearchFilter = ({ onFilterChange, serviceType = 'rental', resultCount }) =
           <select
             value={filters.sortBy}
             onChange={(e) => handleFilterUpdate('sortBy', e.target.value)}
-            className={`${selectClass} w-auto min-w-[160px]`}
+            className={`${selectClass} w-full sm:w-auto sm:min-w-[160px]`}
           >
             {SORT_OPTIONS.map((opt) => (
               <option key={opt.value} value={opt.value}>

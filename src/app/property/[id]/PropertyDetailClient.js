@@ -151,7 +151,7 @@ const PropertyDetailClient = () => {
                 </div>
 
                 {hasImages && images.length > 1 && (
-                  <div className="grid grid-cols-4 gap-2">
+                  <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
                     {images.map((image, index) => (
                       <button
                         key={index}
@@ -226,14 +226,14 @@ const PropertyDetailClient = () => {
                   <div className="grid grid-cols-2 gap-4 mb-6">
                     <div>
                       <div className="text-xs text-gray-500 mb-1 uppercase tracking-wide">Monthly Rent</div>
-                      <div className="text-3xl font-bold text-gray-900">
+                      <div className="text-2xl sm:text-3xl font-bold text-gray-900">
                         {parseFloat(property.rent_amount).toLocaleString()}
                       </div>
                       <div className="text-sm text-gray-400">KES</div>
                     </div>
                     <div>
                       <div className="text-xs text-gray-500 mb-1 uppercase tracking-wide">Deposit</div>
-                      <div className="text-3xl font-bold text-gray-900">
+                      <div className="text-2xl sm:text-3xl font-bold text-gray-900">
                         {parseFloat(property.deposit_amount).toLocaleString()}
                       </div>
                       <div className="text-sm text-gray-400">KES</div>

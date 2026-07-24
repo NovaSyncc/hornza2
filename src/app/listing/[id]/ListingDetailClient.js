@@ -151,7 +151,7 @@ const ListingDetailClient = () => {
                 </div>
 
                 {hasImages && images.length > 1 && (
-                  <div className="grid grid-cols-4 gap-2">
+                  <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
                     {images.map((image, index) => (
                       <button key={index} onClick={() => setCurrentImageIndex(index)}
                         className={`aspect-video rounded-lg overflow-hidden border-2 transition-all ${currentImageIndex === index ? 'border-emerald-500 scale-95' : 'border-gray-200 hover:border-emerald-300 opacity-60 hover:opacity-100'}`}>
@@ -208,7 +208,7 @@ const ListingDetailClient = () => {
                   {listing.service_type === 'sale' ? (
                     <div className="mb-4">
                       <div className="text-xs text-gray-500 mb-1 uppercase tracking-wide">Sale Price</div>
-                      <div className="text-3xl font-bold text-gray-900">
+                      <div className="text-2xl sm:text-3xl font-bold text-gray-900">
                         {listing.sale_price && parseFloat(listing.sale_price) > 0
                           ? `KES ${parseFloat(listing.sale_price).toLocaleString()}`
                           : 'Price on Request'}
@@ -218,7 +218,7 @@ const ListingDetailClient = () => {
                     <div className="grid grid-cols-2 gap-4 mb-4">
                       <div>
                         <div className="text-xs text-gray-500 mb-1 uppercase tracking-wide">Per Night</div>
-                        <div className="text-3xl font-bold text-gray-900">
+                        <div className="text-2xl sm:text-3xl font-bold text-gray-900">
                           {parseFloat(listing.daily_rate || 0).toLocaleString()}
                         </div>
                         <div className="text-sm text-gray-400">KES</div>
@@ -226,7 +226,7 @@ const ListingDetailClient = () => {
                       {listing.monthly_rate && (
                         <div>
                           <div className="text-xs text-gray-500 mb-1 uppercase tracking-wide">Per Month</div>
-                          <div className="text-3xl font-bold text-gray-900">{parseFloat(listing.monthly_rate).toLocaleString()}</div>
+                          <div className="text-2xl sm:text-3xl font-bold text-gray-900">{parseFloat(listing.monthly_rate).toLocaleString()}</div>
                           <div className="text-sm text-gray-400">KES</div>
                         </div>
                       )}
@@ -235,14 +235,14 @@ const ListingDetailClient = () => {
                     <div className="grid grid-cols-2 gap-4 mb-4">
                       <div>
                         <div className="text-xs text-gray-500 mb-1 uppercase tracking-wide">Monthly Rent</div>
-                        <div className="text-3xl font-bold text-gray-900">
+                        <div className="text-2xl sm:text-3xl font-bold text-gray-900">
                           {parseFloat(listing.rent_amount || 0).toLocaleString()}
                         </div>
                         <div className="text-sm text-gray-400">KES</div>
                       </div>
                       <div>
                         <div className="text-xs text-gray-500 mb-1 uppercase tracking-wide">Deposit</div>
-                        <div className="text-3xl font-bold text-gray-900">{parseFloat(listing.deposit_amount || 0).toLocaleString()}</div>
+                        <div className="text-2xl sm:text-3xl font-bold text-gray-900">{parseFloat(listing.deposit_amount || 0).toLocaleString()}</div>
                         <div className="text-sm text-gray-400">KES</div>
                       </div>
                     </div>

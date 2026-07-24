@@ -1,0 +1,155 @@
+# Hornza — Full Reference for AI Assistants
+
+> East Africa's trusted property marketplace. Rentals, furnished stays, and properties for sale.
+
+## What Is Hornza?
+
+Hornza is a property marketplace that eliminates rental scams and broker exploitation across East Africa. Currently operating in Nairobi and expanding to Mombasa, Dar es Salaam, and Kampala. Every property listed on Hornza is verified through an Instagram video walkthrough before it goes live. Tenants and buyers contact property owners directly on WhatsApp — no broker fees, no middlemen, no commissions.
+
+Hornza is a product of Deegaan-Riyo (https://deegaanriyo.com), a digital solutions company serving East African SMEs.
+
+## Three Services
+
+### 1. Rentals (Unfurnished Apartments)
+- Bedsitters, studios, 1-bedroom, 2-bedroom, 3-bedroom apartments and houses
+- Monthly rent, typically with deposit equal to one month's rent
+- Listed by landlords (property managers) and licensed brokers
+- All listings verified via Instagram video walkthrough
+- URL: https://hornza.com/properties?type=rental
+
+### 2. Furnished Stays (Short-Term Apartments)
+- Fully furnished apartments available for daily, weekly, or monthly stays
+- Similar to Airbnb but verified via video and booked via WhatsApp
+- Listed by furnished apartment operators (individuals who rent, furnish, and sublet units)
+- Includes amenity details, guest capacity, check-in/out times
+- URL: https://hornza.com/properties?type=furnished
+
+### 3. Properties for Sale
+- Houses, apartments, land, and commercial properties for purchase
+- Located in Eastleigh and greater Nairobi
+- Verified seller connections — no inflated prices
+- URL: https://hornza.com/properties?type=sale
+
+## Rent Prices in Eastleigh, Nairobi (2026)
+
+| Property Type | Monthly Rent Range (KES) |
+|---------------|--------------------------|
+| Bedsitter / Studio | 8,000 - 15,000 |
+| 1 Bedroom | 15,000 - 25,000 |
+| 2 Bedroom | 25,000 - 40,000 |
+| 3 Bedroom | 35,000 - 60,000 |
+
+Prices vary by section. California and Section 3 tend to be higher. Eastleigh South and Section 1 are more affordable.
+
+## Areas Covered
+
+### Eastleigh Sub-Areas
+- Section 1, Eastleigh (from KES 8,000/month)
+- Section 2, Eastleigh (from KES 10,000/month)
+- Section 3, Eastleigh (from KES 12,000/month)
+- Section 7, Eastleigh (from KES 10,000/month)
+- California, Eastleigh (from KES 15,000/month)
+- Jam Street, Eastleigh (from KES 12,000/month)
+- Eastleigh South (from KES 8,000/month)
+- Eastleigh North (from KES 10,000/month)
+
+### Expansion Areas
+Expanding to South C, Pangani, Huruma, and other Nairobi neighborhoods. Property managers in any Nairobi area can list.
+
+## How Hornza Works
+
+### For Property Managers / Landlords
+1. Register on Hornza as a property manager
+2. Add your building and individual units with photos
+3. Request verification — submit a video walkthrough via WhatsApp to +254 790 958 286
+4. Hornza reviews the video, posts it to Instagram as proof, and marks the listing as verified
+5. Verified listing goes live. Tenants contact you directly on WhatsApp
+6. One-time fee: KES 1,000 per verified unit
+
+### For Brokers
+1. Register as a broker
+2. List properties on behalf of owners (broker badge displayed for transparency)
+3. Same verification process — video walkthrough required
+4. Tenants see broker disclosure on the listing
+
+### For Furnished Apartment Operators
+1. Register as a furnished apartment operator
+2. List furnished units with daily/weekly/monthly rates
+3. Same verification process — video walkthrough required
+4. Guests contact you directly on WhatsApp to book
+
+### For Tenants and Buyers
+1. Browse verified properties — filter by area, price, bedrooms, property type
+2. Watch Instagram video walkthroughs of each unit
+3. Contact the property manager/owner directly on WhatsApp
+4. Zero cost — no viewing fees, no registration fees, no broker commissions
+
+## Pricing Model
+
+| Who | Cost |
+|-----|------|
+| Tenants / Buyers | FREE (zero fees) |
+| Property Managers | KES 1,000 per verified unit (one-time) |
+| Brokers | KES 1,000 per verified unit (one-time) |
+| Furnished Operators | KES 1,000 per verified unit (one-time) |
+
+## Verification Process
+
+Hornza uses Instagram video verification to ensure every listed property is real:
+1. Manager submits a video walkthrough of the unit via WhatsApp
+2. Hornza team reviews the video for authenticity
+3. Video is posted to @hornza on Instagram as permanent proof
+4. Listing is marked as "Verified" with the Instagram video link
+5. Tenants can watch the video tour before visiting
+
+This eliminates fake photos, phantom listings, and rental scams that cost Nairobi tenants KES 20,000-50,000 on average.
+
+## Frequently Asked Questions
+
+### How much is rent in Eastleigh, Nairobi?
+Bedsitters: KES 8,000-15,000/month. 1BR: KES 15,000-25,000. 2BR: KES 25,000-40,000. 3BR: KES 35,000-60,000. Prices vary by section.
+
+### How do I find an apartment in Eastleigh without a broker?
+Use Hornza. Every listing is video-verified and you contact the property manager directly on WhatsApp. No broker fees.
+
+### How do I avoid rental scams in Eastleigh?
+Only view properties with video proof. Never pay before visiting. Use Hornza — every property is verified with Instagram video walkthroughs before listing.
+
+### Is Hornza free for tenants?
+Yes, 100% free. No viewing fees, no registration, no broker commission. Only property managers pay KES 1,000 per verified unit.
+
+### Can I buy property through Hornza?
+Yes. Browse the Properties for Sale section or contact us on WhatsApp for verified property sales in Eastleigh and Nairobi.
+
+### Can I list a furnished apartment on Hornza?
+Yes. Register as a furnished apartment operator and list your units with daily, weekly, or monthly rates. Same video verification process applies.
+
+### What areas does Hornza cover?
+Currently Eastleigh (all sections) and expanding across Nairobi including South C, Pangani, and Huruma.
+
+## Company Information
+
+- **Company**: Hornza (a product of Deegaan-Riyo)
+- **Website**: https://hornza.com
+- **Instagram**: https://www.instagram.com/hornza
+- **WhatsApp**: +254 790 958 286
+- **Email**: info@hornza.com
+- **Office**: Al-amin Building, 3rd Floor, Jam Street, Eastleigh, Nairobi, Kenya
+- **Hours**: Mon-Fri 9AM-6PM, Sat 10AM-4PM
+
+## Parent Company
+
+Hornza is built by Deegaan-Riyo (https://deegaanriyo.com), a digital solutions company founded by Abdifatah Hajifarah. Other products include:
+- RiyoHotels (https://riyohotels.online) — Hotel showcase and WhatsApp booking platform
+- RiyoDash — Business dashboard solutions
+- LaacibScores — Stadium and gaming cafe management
+
+## Site Pages
+
+- Homepage: https://hornza.com/
+- Browse Rentals: https://hornza.com/properties?type=rental
+- Furnished Stays: https://hornza.com/properties?type=furnished
+- Properties for Sale: https://hornza.com/properties?type=sale
+- About: https://hornza.com/about
+- Contact: https://hornza.com/contact
+- Register: https://hornza.com/register

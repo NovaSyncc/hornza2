@@ -1,0 +1,41 @@
+# Hornza
+
+> East Africa's trusted property marketplace — rentals, furnished stays, and properties for sale.
+
+Hornza is a property marketplace serving East Africa, currently operating in Nairobi and expanding across Kenya, Tanzania, and Uganda. Every listing is verified via Instagram video walkthrough. Tenants and buyers contact property owners directly on WhatsApp — no broker fees, no middlemen.
+
+## Services
+
+- **Rentals**: Verified unfurnished apartments and bedsitters (1BR, 2BR, 3BR). Monthly rent from KES 8,000.
+- **Furnished Stays**: Short-term furnished apartments (daily, weekly, monthly rates). Airbnb-style with video verification.
+- **Properties for Sale**: Houses, apartments, land, and commercial properties in Nairobi.
+
+## How It Works
+
+1. Property managers list units and submit a video walkthrough via WhatsApp.
+2. Hornza verifies and posts the video to Instagram as proof.
+3. Verified listings go live. Tenants browse, watch video tours, and contact managers directly on WhatsApp.
+
+## Pricing
+
+- Free for tenants and buyers (zero broker fees, zero registration fees).
+- Property managers pay KES 1,000 one-time verification fee per unit.
+
+## Coverage
+
+Eastleigh (Section 1, 2, 3, 7, California, Jam Street, South, North) and expanding across Nairobi.
+
+## Contact
+
+- WhatsApp: +254 790 958 286
+- Email: info@hornza.com
+- Office: Al-amin Building, 3rd Floor, Jam Street, Eastleigh, Nairobi, Kenya
+
+## Links
+
+- [Browse Rentals](https://hornza.com/properties?type=rental)
+- [Furnished Stays](https://hornza.com/properties?type=furnished)
+- [Properties for Sale](https://hornza.com/properties?type=sale)
+- [About Hornza](https://hornza.com/about)
+- [Contact Us](https://hornza.com/contact)
+- [Full details for LLMs](https://hornza.com/llms-full.txt)

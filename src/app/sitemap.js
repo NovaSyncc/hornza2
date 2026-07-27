@@ -37,6 +37,9 @@ export default async function sitemap() {
     'Huruma',
     'Nairobi',
     'Mombasa',
+    'Mogadishu',
+    'Dar es Salaam',
+    'Kampala',
   ]
 
   const locationPages = locations.map((loc) => ({

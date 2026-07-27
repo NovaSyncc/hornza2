@@ -23,23 +23,43 @@ export default async function sitemap() {
 
   // ── Location pages (local SEO) ────────────────────────────────────────
   const locations = [
+    // Eastleigh sections
     'Eastleigh',
     'Section 1, Eastleigh',
     'Section 2, Eastleigh',
     'Section 3, Eastleigh',
     'Section 7, Eastleigh',
     'California, Eastleigh',
-    'Jam Street, Eastleigh',
     'Eastleigh South',
     'Eastleigh North',
+    // Eastleigh streets
+    '3rd Street, Eastleigh',
+    '4th Street, Eastleigh',
+    '5th Street, Eastleigh',
+    '6th Street, Eastleigh',
+    '7th Street, Eastleigh',
+    '8th Street, Eastleigh',
+    '9th Street, Eastleigh',
+    '10th Street, Eastleigh',
+    '11th Street, Eastleigh',
+    '12th Street, Eastleigh',
+    'First Avenue, Eastleigh',
+    'Second Avenue, Eastleigh',
+    'Third Avenue, Eastleigh',
+    'Jam Street, Eastleigh',
+    'Ushirka, Eastleigh',
+    'Ushirka Heights, Eastleigh',
+    // Nairobi neighborhoods
     'South C',
     'Pangani',
     'Huruma',
+    // Cities
     'Nairobi',
     'Mombasa',
     'Mogadishu',
     'Dar es Salaam',
     'Kampala',
+    'Konza',
   ]
 
   const locationPages = locations.map((loc) => ({

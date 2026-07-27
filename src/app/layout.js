@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://hornza.com"),
+  metadataBase: new URL("https://www.hornza.org"),
   title: {
     default: "Hornza - East Africa's Verified Property Marketplace | Rent, Buy & Furnished Stays",
     template: "%s | Hornza",
@@ -52,14 +52,14 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_KE",
-    url: "https://hornza.com",
+    url: "https://www.hornza.org",
     siteName: "Hornza",
     title: "Hornza - East Africa's Verified Property Marketplace | Rent, Buy & Furnished Stays",
     description:
       "East Africa's trusted property marketplace. Rent apartments, buy homes, or book furnished stays — all video-verified. No broker fees, direct owner contact.",
     images: [
       {
-        url: "/android-chrome-512x512.png",
+        url: "/herobcg.png",
         width: 512,
         height: 512,
         alt: "Hornza Logo",
@@ -71,15 +71,10 @@ export const metadata = {
     title: "Hornza - East Africa's Verified Property Marketplace | Rent, Buy & Furnished Stays",
     description:
       "East Africa's trusted property marketplace. Rent apartments, buy homes, or book furnished stays — all video-verified. No broker fees, direct owner contact.",
-    images: ["/android-chrome-512x512.png"],
+    images: ["/herobcg.png"],
   },
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "64x64 32x32 24x24 16x16" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    icon: [],
   },
   manifest: "/manifest.json",
   other: {
@@ -103,9 +98,9 @@ export default function RootLayout({ children }) {
               name: "Hornza",
               description:
                 "East Africa's trusted video-verified property marketplace. Rent apartments, buy homes, or book furnished stays. Direct connections between property owners and tenants without broker fees.",
-              url: "https://hornza.com",
-              logo: "https://hornza.com/android-chrome-512x512.png",
-              image: "https://hornza.com/android-chrome-512x512.png",
+              url: "https://www.hornza.org",
+              logo: "https://www.hornza.org/herobcg.png",
+              image: "https://www.hornza.org/herobcg.png",
               telephone: "+254790958286",
               address: {
                 "@type": "PostalAddress",
@@ -141,7 +136,11 @@ export default function RootLayout({ children }) {
                 { "@type": "City", name: "Dar es Salaam" },
                 { "@type": "City", name: "Kampala" },
               ],
-              sameAs: ["https://www.instagram.com/hornza"],
+              sameAs: [
+                "https://www.instagram.com/hornza_1/",
+                "https://www.youtube.com/@Hornza_1",
+                "https://www.tiktok.com/@hornza1",
+              ],
             }),
           }}
         />
@@ -152,10 +151,10 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Hornza",
-              url: "https://hornza.com",
+              url: "https://www.hornza.org",
               potentialAction: {
                 "@type": "SearchAction",
-                target: "https://hornza.com/properties?search={search_term_string}",
+                target: "https://www.hornza.org/properties?search={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
             }),
